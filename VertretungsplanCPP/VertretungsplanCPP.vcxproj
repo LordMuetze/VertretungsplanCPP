@@ -113,7 +113,15 @@
     </QtRcc>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="Blockierung.cpp" />
+    <ClCompile Include="Fach.cpp" />
+    <ClCompile Include="Klasse.cpp" />
+    <ClCompile Include="Lehrer.cpp" />
     <ClCompile Include="main.cpp" />
+    <ClCompile Include="Model.cpp" />
+    <ClCompile Include="Raum.cpp" />
+    <ClCompile Include="Stunde.cpp" />
+    <ClCompile Include="Tag.cpp" />
     <ClCompile Include="VertretungsplanCPP.cpp" />
   </ItemGroup>
   <ItemGroup>
@@ -127,6 +135,20 @@
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="VertretungsplanCPP.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Blockierung.h" />
+    <ClInclude Include="Fach.h" />
+    <ClInclude Include="Klasse.h" />
+    <ClInclude Include="Lehrer.h" />
+    <ClInclude Include="Model.h" />
+    <ClInclude Include="Raum.h" />
+    <ClInclude Include="Stunde.h" />
+    <ClInclude Include="Tag.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Condition="Exists('$(QtMsBuild)\qt.targets')">

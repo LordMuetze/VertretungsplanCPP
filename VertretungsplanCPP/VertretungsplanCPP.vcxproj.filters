@@ -36,6 +36,30 @@
     <ClCompile Include="VertretungsplanCPP.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
+    <ClCompile Include="Stunde.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Klasse.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Raum.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Lehrer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Fach.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Tag.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Blockierung.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="Model.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <QtMoc Include="VertretungsplanCPP.h">
@@ -54,5 +78,35 @@
   </ItemGroup>
   <ItemGroup>
     <ResourceCompile Include="VertretungsplanCPP.rc" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Stunde.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Klasse.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Raum.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Lehrer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Fach.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Tag.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Blockierung.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Model.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="ClassDiagram.cd" />
+    <None Include="ClassDiagram1.cd" />
   </ItemGroup>
 </Project>
