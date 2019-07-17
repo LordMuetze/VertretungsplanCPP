@@ -1,0 +1,29 @@
+<UI version="4.0" >
+ <class>VertretungsplanCPPClass</class>
+ <widget class="QMainWindow" name="VertretungsplanCPPClass" >
+  <property name="objectName" >
+   <string notr="true">VertretungsplanCPPClass</string>
+  </property>
+  <property name="geometry" >
+   <rect>
+	<x>0</x>
+	<y>0</y>
+	<width>600</width>
+	<height>400</height>
+   </rect>
+  </property>
+  <property name="windowTitle" >
+   <string>VertretungsplanCPP</string>
+  </property>
+  <widget class="QMenuBar" name="menuBar" />
+  <widget class="QToolBar" name="mainToolBar" />
+  <widget class="QWidget" name="centralWidget" />
+  <widget class="QStatusBar" name="statusBar" />
+ </widget>
+ <layoutDefault spacing="6" margin="11" />
+ <pixmapfunction></pixmapfunction>
+ <resources>
+   <include location="VertretungsplanCPP.qrc"/>
+ </resources>
+ <connections/>
+</UI>
